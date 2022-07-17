@@ -1,0 +1,46 @@
+[33m8feaad7[m HEAD@{0}: commit: test
+[33mf576b17[m HEAD@{1}: pull origin rel: Merge made by the 'recursive' strategy.
+[33md3cb6b0[m HEAD@{2}: commit: test
+[33mbf995ee[m HEAD@{3}: commit: test
+[33m1d019c0[m HEAD@{4}: checkout: moving from con1 to rel
+[33m1d019c0[m HEAD@{5}: pull origin con1: Merge made by the 'recursive' strategy.
+[33m72d68aa[m HEAD@{6}: commit: test
+[33m56e5681[m HEAD@{7}: commit: test
+[33md13f606[m HEAD@{8}: commit: test
+[33m3063166[m HEAD@{9}: commit: test
+[33mcd42422[m HEAD@{10}: commit: test
+[33m0f2b0d5[m HEAD@{11}: checkout: moving from master to con1
+[33m0f2b0d5[m HEAD@{12}: pull origin master: Merge made by the 'recursive' strategy.
+[33m38fdd85[m HEAD@{13}: checkout: moving from dev to master
+[33m5346487[m HEAD@{14}: commit: test
+[33mfab4b2e[m HEAD@{15}: pull origin dev: Fast-forward
+[33mfebac76[m HEAD@{16}: checkout: moving from master to dev
+[33m38fdd85[m HEAD@{17}: commit: test
+[33m4e0bc62[m HEAD@{18}: reset: moving to 4e0bc62
+[33m158031f[m HEAD@{19}: commit: test
+[33m2ec1d4c[m HEAD@{20}: checkout: moving from con1d to master
+[33m4d99e3e[m HEAD@{21}: commit: test
+[33m7e3bbcc[m HEAD@{22}: commit: test
+[33m67e6e7b[m HEAD@{23}: pull origin con1d: Merge made by the 'recursive' strategy.
+[33m145b597[m HEAD@{24}: checkout: moving from master to con1d
+[33m2ec1d4c[m HEAD@{25}: commit: test
+[33m5ea9cb8[m HEAD@{26}: pull origin master: Fast-forward
+[33m4e0bc62[m HEAD@{27}: checkout: moving from con1d to master
+[33m145b597[m HEAD@{28}: commit: test
+[33m1bb1ed4[m HEAD@{29}: commit: init commit
+[33m6ab270c[m HEAD@{30}: checkout: moving from test to con1d
+[33m6ab270c[m HEAD@{31}: pull origin test: Merge made by the 'recursive' strategy.
+[33m3c71175[m HEAD@{32}: commit: test
+[33m49ac2c4[m HEAD@{33}: commit: test
+[33m360f96e[m HEAD@{34}: commit: init commit
+[33m1a930f6[m HEAD@{35}: pull origin test: Fast-forward
+[33mb1dd525[m HEAD@{36}: commit: init commit
+[33m9e7f8e2[m HEAD@{37}: commit: init commit
+[33mfebac76[m HEAD@{38}: checkout: moving from dev to test
+[33mfebac76[m HEAD@{39}: commit: init commit
+[33m4e0bc62[m HEAD@{40}: checkout: moving from master to dev
+[33m4e0bc62[m HEAD@{41}: pull origin master: Fast-forward
+[33mdfc52b0[m HEAD@{42}: pull origin master: Fast-forward
+[33m5091f92[m HEAD@{43}: pull origin master: Fast-forward
+[33m60128ef[m HEAD@{44}: pull origin master: Fast-forward
+[33mdb59b25[m HEAD@{45}: commit (initial): init commit

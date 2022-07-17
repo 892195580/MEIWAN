@@ -1,0 +1,741 @@
+
+./dataset/docred/train_annotated.json
+{
+ "headquarters location": {
+  "('ORG', 'LOC')": 230,
+  "('LOC', 'LOC')": 15,
+  "('MISC', 'LOC')": 12,
+  "('LOC', 'ORG')": 2,
+  "('PER', 'LOC')": 1,
+  "('ORG', 'MISC')": 1,
+  "('MISC', 'MISC')": 2,
+  "('ORG', 'ORG')": 1
+ },
+ "country": {
+  "('ORG', 'LOC')": 1988,
+  "('LOC', 'LOC')": 6227,
+  "('MISC', 'LOC')": 551,
+  "('LOC', 'MISC')": 31,
+  "('PER', 'LOC')": 59,
+  "('MISC', 'ORG')": 4,
+  "('ORG', 'ORG')": 11,
+  "('ORG', 'MISC')": 16,
+  "('LOC', 'ORG')": 18,
+  "('NUM', 'LOC')": 6,
+  "('LOC', 'PER')": 1,
+  "('MISC', 'MISC')": 6,
+  "('TIME', 'LOC')": 3
+ },
+ "located in the administrative territorial entity": {
+  "('LOC', 'LOC')": 3708,
+  "('MISC', 'LOC')": 35,
+  "('ORG', 'LOC')": 402,
+  "('LOC', 'ORG')": 22,
+  "('PER', 'LOC')": 7,
+  "('LOC', 'MISC')": 10,
+  "('ORG', 'ORG')": 5,
+  "('LOC', 'PER')": 2,
+  "('PER', 'ORG')": 1,
+  "('MISC', 'ORG')": 1
+ },
+ "contains administrative territorial entity": {
+  "('LOC', 'LOC')": 1946,
+  "('ORG', 'LOC')": 23,
+  "('LOC', 'ORG')": 19,
+  "('LOC', 'PER')": 3,
+  "('MISC', 'LOC')": 6,
+  "('PER', 'LOC')": 1,
+  "('LOC', 'MISC')": 5,
+  "('ORG', 'ORG')": 1
+ },
+ "country of citizenship": {
+  "('PER', 'LOC')": 2578,
+  "('PER', 'MISC')": 32,
+  "('MISC', 'LOC')": 11,
+  "('ORG', 'LOC')": 18,
+  "('PER', 'ORG')": 15,
+  "('LOC', 'LOC')": 29,
+  "('PER', 'PER')": 6
+ },
+ "date of birth": {
+  "('PER', 'TIME')": 1039,
+  "('MISC', 'TIME')": 2,
+  "('LOC', 'TIME')": 2,
+  "('NUM', 'TIME')": 1
+ },
+ "place of birth": {
+  "('PER', 'LOC')": 507,
+  "('PER', 'ORG')": 1,
+  "('LOC', 'LOC')": 3
+ },
+ "ethnic group": {
+  "('LOC', 'LOC')": 31,
+  "('LOC', 'MISC')": 2,
+  "('PER', 'LOC')": 25,
+  "('LOC', 'ORG')": 13,
+  "('PER', 'ORG')": 6,
+  "('PER', 'MISC')": 1,
+  "('ORG', 'ORG')": 1
+ },
+ "inception": {
+  "('LOC', 'TIME')": 105,
+  "('ORG', 'TIME')": 285,
+  "('MISC', 'TIME')": 83,
+  "('PER', 'TIME')": 2
+ },
+ "dissolved, abolished or demolished": {
+  "('ORG', 'TIME')": 49,
+  "('LOC', 'TIME')": 26,
+  "('MISC', 'TIME')": 3,
+  "('PER', 'TIME')": 1
+ },
+ "conflict": {
+  "('PER', 'MISC')": 143,
+  "('ORG', 'MISC')": 105,
+  "('ORG', 'LOC')": 2,
+  "('MISC', 'MISC')": 9,
+  "('LOC', 'MISC')": 13,
+  "('PER', 'LOC')": 2,
+  "('PER', 'ORG')": 1
+ },
+ "continent": {
+  "('LOC', 'LOC')": 343,
+  "('MISC', 'LOC')": 3,
+  "('LOC', 'ORG')": 2,
+  "('ORG', 'LOC')": 7,
+  "('PER', 'LOC')": 1
+ },
+ "location": {
+  "('MISC', 'LOC')": 126,
+  "('LOC', 'LOC')": 33,
+  "('ORG', 'LOC')": 10,
+  "('LOC', 'ORG')": 1,
+  "('MISC', 'MISC')": 2
+ },
+ "capital of": {
+  "('LOC', 'LOC')": 73,
+  "('LOC', 'ORG')": 2,
+  "('ORG', 'LOC')": 1
+ },
+ "located in or next to body of water": {
+  "('LOC', 'LOC')": 191,
+  "('LOC', 'PER')": 1,
+  "('ORG', 'LOC')": 1,
+  "('NUM', 'LOC')": 1
+ },
+ "country of origin": {
+  "('MISC', 'LOC')": 404,
+  "('PER', 'LOC')": 8,
+  "('ORG', 'LOC')": 103,
+  "('LOC', 'LOC')": 20,
+  "('LOC', 'MISC')": 1,
+  "('MISC', 'ORG')": 1,
+  "('MISC', 'MISC')": 2
+ },
+ "residence": {
+  "('PER', 'LOC')": 33,
+  "('PER', 'ORG')": 1,
+  "('ORG', 'LOC')": 1
+ },
+ "record label": {
+  "('ORG', 'ORG')": 81,
+  "('PER', 'ORG')": 157,
+  "('MISC', 'ORG')": 327,
+  "('MISC', 'PER')": 2,
+  "('ORG', 'PER')": 1,
+  "('MISC', 'MISC')": 6,
+  "('PER', 'MISC')": 4,
+  "('ORG', 'MISC')": 2,
+  "('MISC', 'LOC')": 1,
+  "('LOC', 'ORG')": 2
+ },
+ "has part": {
+  "('ORG', 'PER')": 317,
+  "('LOC', 'LOC')": 132,
+  "('ORG', 'ORG')": 63,
+  "('MISC', 'ORG')": 6,
+  "('MISC', 'MISC')": 39,
+  "('PER', 'PER')": 4,
+  "('MISC', 'PER')": 21,
+  "('MISC', 'LOC')": 18,
+  "('LOC', 'MISC')": 5,
+  "('PER', 'LOC')": 2,
+  "('ORG', 'LOC')": 8,
+  "('PER', 'MISC')": 3,
+  "('LOC', 'ORG')": 7,
+  "('ORG', 'MISC')": 5,
+  "('TIME', 'TIME')": 2
+ },
+ "member of": {
+  "('PER', 'ORG')": 274,
+  "('LOC', 'ORG')": 100,
+  "('LOC', 'LOC')": 11,
+  "('PER', 'MISC')": 5,
+  "('ORG', 'ORG')": 15,
+  "('PER', 'PER')": 1,
+  "('ORG', 'LOC')": 4,
+  "('MISC', 'ORG')": 1,
+  "('PER', 'LOC')": 2,
+  "('LOC', 'MISC')": 1
+ },
+ "performer": {
+  "('MISC', 'ORG')": 535,
+  "('MISC', 'PER')": 406,
+  "('PER', 'PER')": 66,
+  "('MISC', 'MISC')": 26,
+  "('ORG', 'ORG')": 2,
+  "('ORG', 'MISC')": 1,
+  "('TIME', 'ORG')": 1,
+  "('ORG', 'PER')": 7,
+  "('MISC', 'LOC')": 7,
+  "('PER', 'ORG')": 1
+ },
+ "publication date": {
+  "('MISC', 'TIME')": 1121,
+  "('ORG', 'TIME')": 12,
+  "('PER', 'TIME')": 8,
+  "('LOC', 'TIME')": 1
+ },
+ "cast member": {
+  "('MISC', 'PER')": 603,
+  "('PER', 'PER')": 11,
+  "('PER', 'MISC')": 2,
+  "('ORG', 'PER')": 3,
+  "('MISC', 'LOC')": 1,
+  "('LOC', 'PER')": 1
+ },
+ "mouth of the watercourse": {
+  "('LOC', 'LOC')": 95
+ },
+ "place of death": {
+  "('PER', 'LOC')": 198,
+  "('PER', 'ORG')": 1,
+  "('PER', 'MISC')": 3,
+  "('LOC', 'LOC')": 1
+ },
+ "educated at": {
+  "('PER', 'ORG')": 307,
+  "('PER', 'LOC')": 9
+ },
+ "date of death": {
+  "('PER', 'TIME')": 794,
+  "('MISC', 'TIME')": 5,
+  "('LOC', 'TIME')": 3,
+  "('ORG', 'TIME')": 1,
+  "('NUM', 'TIME')": 1,
+  "('ORG', 'LOC')": 1
+ },
+ "employer": {
+  "('PER', 'ORG')": 188,
+  "('PER', 'LOC')": 8
+ },
+ "award received": {
+  "('PER', 'MISC')": 149,
+  "('ORG', 'MISC')": 2,
+  "('PER', 'ORG')": 4,
+  "('MISC', 'ORG')": 3,
+  "('MISC', 'MISC')": 12,
+  "('LOC', 'MISC')": 3
+ },
+ "head of government": {
+  "('LOC', 'PER')": 204,
+  "('LOC', 'MISC')": 1,
+  "('ORG', 'PER')": 2,
+  "('LOC', 'LOC')": 3
+ },
+ "part of": {
+  "('LOC', 'LOC')": 184,
+  "('MISC', 'MISC')": 254,
+  "('ORG', 'ORG')": 80,
+  "('LOC', 'MISC')": 22,
+  "('MISC', 'LOC')": 6,
+  "('MISC', 'ORG')": 10,
+  "('PER', 'MISC')": 3,
+  "('PER', 'ORG')": 10,
+  "('LOC', 'ORG')": 10,
+  "('TIME', 'MISC')": 1,
+  "('ORG', 'LOC')": 8,
+  "('MISC', 'PER')": 1,
+  "('TIME', 'TIME')": 6,
+  "('ORG', 'MISC')": 1
+ },
+ "capital": {
+  "('LOC', 'LOC')": 82,
+  "('LOC', 'PER')": 1,
+  "('ORG', 'LOC')": 2
+ },
+ "spouse": {
+  "('PER', 'PER')": 297,
+  "('PER', 'LOC')": 2,
+  "('LOC', 'PER')": 3,
+  "('MISC', 'PER')": 1
+ },
+ "mother": {
+  "('PER', 'PER')": 70,
+  "('MISC', 'MISC')": 3,
+  "('PER', 'MISC')": 1
+ },
+ "father": {
+  "('PER', 'PER')": 261,
+  "('PER', 'ORG')": 2,
+  "('PER', 'LOC')": 4,
+  "('PER', 'MISC')": 2,
+  "('MISC', 'MISC')": 2,
+  "('MISC', 'PER')": 1,
+  "('LOC', 'PER')": 1
+ },
+ "child": {
+  "('PER', 'PER')": 340,
+  "('ORG', 'PER')": 2,
+  "('LOC', 'PER')": 8,
+  "('PER', 'MISC')": 4,
+  "('MISC', 'MISC')": 3,
+  "('MISC', 'PER')": 3
+ },
+ "official language": {
+  "('LOC', 'ORG')": 1,
+  "('LOC', 'LOC')": 38,
+  "('LOC', 'MISC')": 67,
+  "('MISC', 'LOC')": 4,
+  "('MISC', 'MISC')": 2,
+  "('ORG', 'MISC')": 7
+ },
+ "languages spoken, written or signed": {
+  "('PER', 'MISC')": 69,
+  "('PER', 'LOC')": 77,
+  "('LOC', 'LOC')": 4,
+  "('LOC', 'MISC')": 3,
+  "('MISC', 'MISC')": 1,
+  "('PER', 'ORG')": 1
+ },
+ "notable work": {
+  "('PER', 'MISC')": 138,
+  "('PER', 'LOC')": 6,
+  "('PER', 'PER')": 5,
+  "('MISC', 'MISC')": 1
+ },
+ "developer": {
+  "('MISC', 'PER')": 12,
+  "('MISC', 'ORG')": 218,
+  "('ORG', 'ORG')": 4,
+  "('PER', 'ORG')": 3,
+  "('LOC', 'ORG')": 1
+ },
+ "platform": {
+  "('MISC', 'MISC')": 288,
+  "('MISC', 'ORG')": 3,
+  "('MISC', 'NUM')": 1,
+  "('ORG', 'MISC')": 1,
+  "('PER', 'MISC')": 10,
+  "('LOC', 'MISC')": 1
+ },
+ "work location": {
+  "('PER', 'LOC')": 92,
+  "('LOC', 'LOC')": 1,
+  "('PER', 'ORG')": 9,
+  "('ORG', 'LOC')": 1,
+  "('LOC', 'PER')": 1
+ },
+ "member of political party": {
+  "('PER', 'ORG')": 390,
+  "('PER', 'MISC')": 8,
+  "('LOC', 'ORG')": 4,
+  "('MISC', 'ORG')": 1,
+  "('PER', 'LOC')": 1,
+  "('PER', 'PER')": 1,
+  "('ORG', 'PER')": 1
+ },
+ "point in time": {
+  "('MISC', 'TIME')": 85,
+  "('LOC', 'TIME')": 9,
+  "('ORG', 'TIME')": 1,
+  "('PER', 'TIME')": 1
+ },
+ "location of formation": {
+  "('ORG', 'TIME')": 1,
+  "('ORG', 'LOC')": 54,
+  "('PER', 'LOC')": 2,
+  "('LOC', 'LOC')": 1,
+  "('MISC', 'LOC')": 3,
+  "('ORG', 'ORG')": 1
+ },
+ "sibling": {
+  "('PER', 'PER')": 335
+ },
+ "applies to jurisdiction": {
+  "('ORG', 'LOC')": 249,
+  "('MISC', 'LOC')": 30,
+  "('LOC', 'LOC')": 6,
+  "('ORG', 'ORG')": 8,
+  "('ORG', 'MISC')": 2,
+  "('MISC', 'MISC')": 1,
+  "('MISC', 'ORG')": 1,
+  "('LOC', 'MISC')": 1
+ },
+ "director": {
+  "('MISC', 'PER')": 241,
+  "('LOC', 'PER')": 2,
+  "('PER', 'PER')": 2,
+  "('ORG', 'PER')": 1
+ },
+ "screenwriter": {
+  "('MISC', 'PER')": 155,
+  "('PER', 'PER')": 1
+ },
+ "production company": {
+  "('MISC', 'ORG')": 75,
+  "('LOC', 'ORG')": 2,
+  "('PER', 'MISC')": 1,
+  "('PER', 'ORG')": 3,
+  "('ORG', 'ORG')": 1
+ },
+ "follows": {
+  "('ORG', 'ORG')": 28,
+  "('MISC', 'MISC')": 131,
+  "('LOC', 'LOC')": 19,
+  "('MISC', 'LOC')": 1,
+  "('LOC', 'MISC')": 2,
+  "('ORG', 'MISC')": 2,
+  "('PER', 'MISC')": 1,
+  "('TIME', 'TIME')": 3,
+  "('ORG', 'LOC')": 1
+ },
+ "followed by": {
+  "('ORG', 'ORG')": 27,
+  "('MISC', 'MISC')": 144,
+  "('LOC', 'LOC')": 14,
+  "('LOC', 'MISC')": 1,
+  "('MISC', 'LOC')": 2,
+  "('MISC', 'PER')": 1,
+  "('TIME', 'TIME')": 1,
+  "('MISC', 'ORG')": 1,
+  "('LOC', 'ORG')": 1
+ },
+ "legislative body": {
+  "('LOC', 'ORG')": 156,
+  "('LOC', 'MISC')": 5,
+  "('MISC', 'ORG')": 1,
+  "('ORG', 'ORG')": 4
+ },
+ "military branch": {
+  "('PER', 'ORG')": 91,
+  "('ORG', 'ORG')": 11,
+  "('PER', 'LOC')": 3,
+  "('ORG', 'LOC')": 2,
+  "('MISC', 'ORG')": 1
+ },
+ "owned by": {
+  "('ORG', 'PER')": 6,
+  "('LOC', 'ORG')": 22,
+  "('MISC', 'ORG')": 55,
+  "('ORG', 'ORG')": 103,
+  "('LOC', 'LOC')": 14,
+  "('MISC', 'PER')": 3,
+  "('ORG', 'LOC')": 1,
+  "('LOC', 'PER')": 3,
+  "('PER', 'ORG')": 1
+ },
+ "league": {
+  "('ORG', 'MISC')": 24,
+  "('ORG', 'ORG')": 149,
+  "('LOC', 'MISC')": 1,
+  "('LOC', 'ORG')": 3,
+  "('ORG', 'LOC')": 3,
+  "('MISC', 'ORG')": 1,
+  "('PER', 'ORG')": 3,
+  "('PER', 'MISC')": 1
+ },
+ "position held": {
+  "('PER', 'MISC')": 13,
+  "('PER', 'LOC')": 2,
+  "('PER', 'ORG')": 7,
+  "('PER', 'PER')": 1
+ },
+ "characters": {
+  "('MISC', 'PER')": 138,
+  "('MISC', 'ORG')": 1,
+  "('MISC', 'MISC')": 8,
+  "('PER', 'PER')": 8,
+  "('LOC', 'PER')": 5,
+  "('TIME', 'PER')": 1,
+  "('PER', 'MISC')": 2
+ },
+ "series": {
+  "('MISC', 'MISC')": 131,
+  "('MISC', 'PER')": 7,
+  "('NUM', 'MISC')": 1,
+  "('MISC', 'LOC')": 1,
+  "('ORG', 'MISC')": 3,
+  "('PER', 'MISC')": 1
+ },
+ "present in work": {
+  "('PER', 'MISC')": 259,
+  "('MISC', 'MISC')": 12,
+  "('ORG', 'MISC')": 10,
+  "('LOC', 'MISC')": 7,
+  "('PER', 'PER')": 5,
+  "('PER', 'LOC')": 5,
+  "('MISC', 'PER')": 1
+ },
+ "creator": {
+  "('MISC', 'PER')": 87,
+  "('PER', 'PER')": 115,
+  "('ORG', 'PER')": 2,
+  "('PER', 'ORG')": 11,
+  "('MISC', 'ORG')": 6,
+  "('LOC', 'PER')": 8,
+  "('ORG', 'ORG')": 1,
+  "('TIME', 'PER')": 1
+ },
+ "original network": {
+  "('MISC', 'ORG')": 117,
+  "('MISC', 'MISC')": 24,
+  "('MISC', 'LOC')": 1,
+  "('PER', 'ORG')": 4,
+  "('LOC', 'ORG')": 3,
+  "('PER', 'MISC')": 1,
+  "('ORG', 'ORG')": 2
+ },
+ "composer": {
+  "('MISC', 'PER')": 77,
+  "('PER', 'PER')": 1,
+  "('NUM', 'PER')": 1
+ },
+ "chairperson": {
+  "('ORG', 'PER')": 60,
+  "('MISC', 'PER')": 2,
+  "('LOC', 'PER')": 1
+ },
+ "participant of": {
+  "('PER', 'MISC')": 183,
+  "('ORG', 'MISC')": 13,
+  "('LOC', 'MISC')": 19,
+  "('MISC', 'MISC')": 5,
+  "('PER', 'NUM')": 1,
+  "('ORG', 'ORG')": 1,
+  "('PER', 'ORG')": 1
+ },
+ "start time": {
+  "('MISC', 'TIME')": 100,
+  "('ORG', 'TIME')": 5,
+  "('LOC', 'TIME')": 3,
+  "('TIME', 'TIME')": 1,
+  "('PER', 'TIME')": 1
+ },
+ "end time": {
+  "('MISC', 'TIME')": 47,
+  "('ORG', 'TIME')": 3,
+  "('TIME', 'TIME')": 1
+ },
+ "lyrics by": {
+  "('MISC', 'PER')": 35,
+  "('MISC', 'ORG')": 1
+ },
+ "member of sports team": {
+  "('PER', 'ORG')": 348,
+  "('PER', 'LOC')": 16,
+  "('PER', 'MISC')": 1,
+  "('PER', 'PER')": 1,
+  "('ORG', 'ORG')": 3,
+  "('NUM', 'ORG')": 6,
+  "('NUM', 'LOC')": 1,
+  "('NUM', 'PER')": 1,
+  "('NUM', 'MISC')": 1,
+  "('PER', 'TIME')": 1
+ },
+ "author": {
+  "('MISC', 'PER')": 297,
+  "('PER', 'PER')": 12,
+  "('LOC', 'PER')": 4,
+  "('MISC', 'LOC')": 1,
+  "('ORG', 'PER')": 2,
+  "('MISC', 'ORG')": 1,
+  "('TIME', 'PER')": 1,
+  "('MISC', 'MISC')": 2
+ },
+ "narrative location": {
+  "('MISC', 'LOC')": 41,
+  "('PER', 'LOC')": 2,
+  "('ORG', 'LOC')": 2,
+  "('LOC', 'ORG')": 1,
+  "('LOC', 'LOC')": 2
+ },
+ "genre": {
+  "('ORG', 'ORG')": 2,
+  "('ORG', 'MISC')": 10,
+  "('PER', 'MISC')": 57,
+  "('PER', 'LOC')": 6,
+  "('MISC', 'MISC')": 32,
+  "('PER', 'ORG')": 1,
+  "('MISC', 'ORG')": 1,
+  "('PER', 'TIME')": 1,
+  "('TIME', 'MISC')": 1
+ },
+ "basin country": {
+  "('LOC', 'LOC')": 85
+ },
+ "located on terrain feature": {
+  "('LOC', 'LOC')": 130,
+  "('ORG', 'LOC')": 2,
+  "('MISC', 'LOC')": 3,
+  "('NUM', 'LOC')": 2
+ },
+ "producer": {
+  "('MISC', 'PER')": 106,
+  "('ORG', 'PER')": 3,
+  "('MISC', 'MISC')": 1,
+  "('MISC', 'ORG')": 6,
+  "('PER', 'PER')": 1,
+  "('PER', 'MISC')": 2
+ },
+ "participant": {
+  "('MISC', 'PER')": 48,
+  "('MISC', 'LOC')": 87,
+  "('LOC', 'LOC')": 5,
+  "('MISC', 'ORG')": 38,
+  "('MISC', 'MISC')": 7,
+  "('LOC', 'PER')": 1,
+  "('ORG', 'LOC')": 3,
+  "('ORG', 'PER')": 2
+ },
+ "head of state": {
+  "('LOC', 'PER')": 135,
+  "('ORG', 'PER')": 2,
+  "('MISC', 'PER')": 2,
+  "('LOC', 'ORG')": 1
+ },
+ "religion": {
+  "('PER', 'ORG')": 94,
+  "('PER', 'MISC')": 6,
+  "('LOC', 'ORG')": 17,
+  "('PER', 'LOC')": 8,
+  "('ORG', 'ORG')": 18,
+  "('ORG', 'LOC')": 1
+ },
+ "territory claimed by": {
+  "('LOC', 'LOC')": 30,
+  "('PER', 'LOC')": 1,
+  "('LOC', 'MISC')": 2
+ },
+ "original language of work": {
+  "('MISC', 'LOC')": 25,
+  "('MISC', 'MISC')": 36,
+  "('LOC', 'MISC')": 1,
+  "('PER', 'LOC')": 1,
+  "('LOC', 'LOC')": 1,
+  "('PER', 'MISC')": 1,
+  "('LOC', 'ORG')": 1
+ },
+ "influenced by": {
+  "('MISC', 'PER')": 1,
+  "('MISC', 'MISC')": 3,
+  "('PER', 'PER')": 4,
+  "('ORG', 'ORG')": 1
+ },
+ "subclass of": {
+  "('MISC', 'MISC')": 45,
+  "('ORG', 'ORG')": 15,
+  "('MISC', 'LOC')": 9,
+  "('MISC', 'ORG')": 2,
+  "('LOC', 'MISC')": 1,
+  "('MISC', 'NUM')": 1,
+  "('LOC', 'ORG')": 1,
+  "('ORG', 'MISC')": 1,
+  "('ORG', 'LOC')": 1,
+  "('PER', 'MISC')": 1
+ },
+ "instance of": {
+  "('ORG', 'ORG')": 25,
+  "('MISC', 'MISC')": 52,
+  "('LOC', 'MISC')": 2,
+  "('LOC', 'LOC')": 12,
+  "('MISC', 'ORG')": 3,
+  "('ORG', 'MISC')": 4,
+  "('LOC', 'ORG')": 3,
+  "('PER', 'ORG')": 1,
+  "('ORG', 'LOC')": 1
+ },
+ "operator": {
+  "('LOC', 'ORG')": 32,
+  "('MISC', 'ORG')": 39,
+  "('ORG', 'ORG')": 20,
+  "('ORG', 'LOC')": 1,
+  "('PER', 'ORG')": 1,
+  "('MISC', 'LOC')": 1,
+  "('LOC', 'LOC')": 1
+ },
+ "founded by": {
+  "('ORG', 'PER')": 66,
+  "('MISC', 'PER')": 11,
+  "('ORG', 'ORG')": 4,
+  "('LOC', 'PER')": 6,
+  "('PER', 'MISC')": 9,
+  "('LOC', 'ORG')": 1,
+  "('ORG', 'LOC')": 2,
+  "('PER', 'PER')": 1
+ },
+ "publisher": {
+  "('MISC', 'ORG')": 149,
+  "('MISC', 'PER')": 4,
+  "('ORG', 'ORG')": 3,
+  "('ORG', 'PER')": 2,
+  "('MISC', 'MISC')": 3,
+  "('LOC', 'ORG')": 2,
+  "('PER', 'ORG')": 9
+ },
+ "manufacturer": {
+  "('MISC', 'ORG')": 75,
+  "('ORG', 'ORG')": 1,
+  "('LOC', 'ORG')": 1,
+  "('PER', 'ORG')": 1,
+  "('MISC', 'LOC')": 5
+ },
+ "parent organization": {
+  "('ORG', 'ORG')": 76,
+  "('MISC', 'ORG')": 11,
+  "('MISC', 'PER')": 2,
+  "('ORG', 'PER')": 1,
+  "('LOC', 'ORG')": 2
+ },
+ "subsidiary": {
+  "('ORG', 'ORG')": 72,
+  "('ORG', 'MISC')": 15,
+  "('LOC', 'ORG')": 1,
+  "('ORG', 'LOC')": 3,
+  "('MISC', 'ORG')": 1
+ },
+ "unemployment rate": {
+  "('LOC', 'NUM')": 1,
+  "('LOC', 'TIME')": 1
+ },
+ "parent taxon": {
+  "('MISC', 'MISC')": 66,
+  "('LOC', 'MISC')": 4,
+  "('MISC', 'LOC')": 4,
+  "('LOC', 'LOC')": 1
+ },
+ "product or material produced": {
+  "('ORG', 'MISC')": 32,
+  "('ORG', 'ORG')": 4
+ },
+ "replaced by": {
+  "('LOC', 'LOC')": 26,
+  "('ORG', 'ORG')": 5,
+  "('ORG', 'MISC')": 1,
+  "('MISC', 'MISC')": 3,
+  "('ORG', 'LOC')": 1
+ },
+ "replaces": {
+  "('LOC', 'LOC')": 11,
+  "('ORG', 'ORG')": 3,
+  "('MISC', 'ORG')": 1,
+  "('MISC', 'MISC')": 3
+ },
+ "separated from": {
+  "('ORG', 'ORG')": 1,
+  "('LOC', 'LOC')": 1
+ },
+ "sister city": {
+  "('LOC', 'LOC')": 4
+ }
+}
